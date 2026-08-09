@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Knip en Knap — Barbershop Website
+
+A modern, responsive website built for **Knip en Knap**, a barbershop located in Ghent, Belgium.
+
+The website focuses on a clean and premium user experience, with easy access to services, opening hours, location information, and direct appointment requests through WhatsApp.
+
+## Features
+
+* Responsive design for mobile, tablet, and desktop
+* Dutch and English language support
+* Services and pricing overview
+* Barbershop gallery
+* Opening hours and location information
+* Google Maps integration
+* Direct WhatsApp appointment button
+* SEO-friendly metadata
+* Sitemap and robots configuration
+* Optimized images with Next.js
+* Reusable component-based architecture
+* Custom design system with centralized brand colors
+
+## Tech Stack
+
+* **Next.js 16**
+* **React**
+* **TypeScript**
+* **Tailwind CSS**
+* **Next.js Image Optimization**
+
+## Project Structure
+
+```text
+src/
+├── app/
+├── components/
+│   ├── layout/
+│   ├── sections/
+│   └── ui/
+├── config/
+├── content/
+└── types/
+
+public/
+└── images/
+```
+
+The project separates layout components, page sections, reusable UI components, configuration, and multilingual content to keep the codebase clean and maintainable.
 
 ## Getting Started
 
-First, run the development server:
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000` in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create an optimized production build:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Run the production server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Languages
 
-## Deploy on Vercel
+The website currently supports:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Dutch (`/nl`)
+* English (`/en`)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Location
+
+**Knip en Knap**
+Noordstraat 27
+9000 Ghent, Belgium
+
+## Developer
+
+Designed and developed by **Mohamad Matar**.
+
+Portfolio: `https://mohamad-portfolio.vercel.app/`
+
+## License
+
+This project was developed specifically for Knip en Knap.
+The design, branding, images, and business content are not intended for reuse without permission.
