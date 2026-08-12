@@ -25,6 +25,7 @@ export type ServiceItem = {
   title: string;
   description: string;
   price: string;
+  promo?: string;
 };
 
 export type ServicesContent = {

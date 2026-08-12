@@ -62,6 +62,7 @@ const en: SiteContent = {
         description:
           "Your beard is carefully trimmed and shaped for a clean, defined finish.",
         price: "€12",
+        promo: "Promo",
       },
       {
         title: "Haircut + beard",
@@ -70,10 +71,11 @@ const en: SiteContent = {
         price: "€28",
       },
       {
-        title: "Hair & beard with clippers",
+        title: "Hair & beard with razor",
         description:
-          "Hair and beard trimmed entirely with clippers and finished with precision.",
-        price: "€23",
+          "Hair and beard fully shaved with a razor for a smooth, clean finish.",
+        price: "€25",
+        promo: "Promo",
       },
     ],
   },

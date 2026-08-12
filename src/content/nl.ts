@@ -62,6 +62,7 @@ const nl: SiteContent = {
         description:
           "Je baard wordt netjes getrimd en in model gebracht voor een strakke afwerking.",
         price: "€12",
+        promo: "Promo",
       },
       {
         title: "Haar + baard",
@@ -70,10 +71,11 @@ const nl: SiteContent = {
         price: "€28",
       },
       {
-        title: "Haar & baard met tondeuse",
+        title: "Haar & baard met scheermes",
         description:
-          "Haar en baard volledig met de tondeuse, netjes en strak afgewerkt.",
-        price: "€23",
+          "Haar en baard volledig met het scheermes, glad en zorgvuldig afgewerkt.",
+        price: "€25",
+        promo: "Promo",
       },
     ],
   },

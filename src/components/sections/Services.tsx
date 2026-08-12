@@ -25,12 +25,33 @@ export default function Services({ content }: Props) {
             <article
               key={service.title}
               className={[
-                "group border-b border-[var(--brand-gold)]/25 py-8",
+                "group relative border-b border-[var(--brand-gold)]/25 py-8",
                 index % 2 === 0
                   ? "md:border-r md:pr-10"
                   : "md:pl-10",
+                service.promo ? "bg-[#9b4a3f]/[0.045]" : "",
               ].join(" ")}
             >
+              {/* Promo badge */}
+              {service.promo && (
+                <span
+                  className="
+                    pointer-events-none
+                    absolute left-3 top-2
+                    z-20 
+                    rounded-full
+                    bg-[#9b4a3f]/90
+                    px-3 py-1
+                    text-[10px] font-bold uppercase
+                    tracking-[0.16em]
+                    text-white
+                    shadow-sm
+                  "
+                >
+                  {service.promo}
+                </span>
+              )}
+
               <div className="flex items-start justify-between gap-6">
                 <div>
                   <h3 className="text-2xl font-semibold tracking-tight text-[var(--brand-espresso)] transition-colors duration-300 group-hover:text-[var(--brand-gold-dark)]">
