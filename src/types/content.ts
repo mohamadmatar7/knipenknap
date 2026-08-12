@@ -19,6 +19,10 @@ export type HeroContent = {
   hours: string;
 
   viewMap: string;
+
+  walkInLabel: string;
+  walkIn: string;
+  
 };
 
 export type ServiceItem = {

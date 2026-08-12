@@ -30,6 +30,9 @@ const en: SiteContent = {
     hours: "From 10:30",
 
     viewMap: "View map",
+
+    walkInLabel: "Appointment",
+    walkIn: "Not required",
   },
 
   services: {

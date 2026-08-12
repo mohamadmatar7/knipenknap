@@ -30,6 +30,9 @@ const nl: SiteContent = {
     hours: "Vanaf 10:30",
 
     viewMap: "Bekijk kaart",
+
+    walkInLabel: "Afspraak",
+    walkIn: "Niet nodig",
   },
 
   services: {
