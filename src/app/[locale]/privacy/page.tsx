@@ -7,6 +7,8 @@ import Footer from "@/components/layout/Footer";
 
 import Container from "@/components/ui/Container";
 import SectionTitle from "@/components/ui/SectionTitle";
+import WhatsAppButton from "@/components/ui/WhatsAppButton";
+import ScrollToTopButton from "@/components/ui/ScrollToTopButton";
 
 import { isLocale } from "@/config/locales";
 import { siteConfig } from "@/config/site";
@@ -204,6 +206,9 @@ export default async function PrivacyPage({ params }: Props) {
         content={t.footer}
         locale={locale}
         />
+
+      <WhatsAppButton label={t.footer.whatsapp} />
+      <ScrollToTopButton />
     </>
   );
 }
