@@ -16,7 +16,7 @@ const en: SiteContent = {
 
   hero: {
     eyebrow: "Barbershop in Ghent",
-    title: "Your style, down to the details.",
+    title: "Your style, down to the details",
     subtitle:
       "Professional men's haircuts and beard grooming in a modern and relaxed atmosphere in the heart of Ghent.",
 
@@ -34,7 +34,7 @@ const en: SiteContent = {
 
   services: {
     eyebrow: "Our services",
-    title: "Everything for your style.",
+    title: "Everything for your style",
     description:
       "From a fresh haircut to a well-groomed beard. Explore our services and choose what suits you best.",
 
@@ -80,7 +80,7 @@ const en: SiteContent = {
 
   about: {
     eyebrow: "About us",
-    title: "More than just a haircut.",
+    title: "More than just a haircut",
     text:
       "For us, it's about craftsmanship, attention to detail and finding a style that suits you. In a modern and relaxed environment, we take the time to give you a clean finish, so you leave looking fresh and feeling confident.",
 
@@ -95,12 +95,12 @@ const en: SiteContent = {
 
   gallery: {
     eyebrow: "Our atmosphere",
-    title: "A place where style and detail come together.",
+    title: "A place where style and detail come together",
   },
 
   location: {
     eyebrow: "Location",
-    title: "Visit us in Ghent.",
+    title: "Visit us in Ghent",
     text:
       "You'll find our barbershop at Noordstraat 27 in Ghent. Stop by for a fresh look and personal service.",
 

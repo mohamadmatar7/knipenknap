@@ -52,7 +52,7 @@ export default function Hero({ content }: Props) {
 
           {/* Quick info */}
           <div className="mt-10 grid grid-cols-2 border-t border-[var(--brand-gold)]/20 pt-5 sm:mt-12 sm:max-w-lg sm:pt-6">
-            {/* Location */}
+            
             <div className="pr-4 sm:pr-6">
               <p className="text-[11px] font-semibold uppercase tracking-wider text-[var(--brand-gold)]">
                 {content.locationLabel}
@@ -63,7 +63,7 @@ export default function Hero({ content }: Props) {
               </p>
             </div>
 
-            {/* Opening hours */}
+            
             <div className="border-l border-[var(--brand-gold)]/20 pl-4 sm:pl-6">
               <p className="text-[11px] font-semibold uppercase tracking-wider text-[var(--brand-gold)]">
                 {content.hoursLabel}
@@ -74,6 +74,7 @@ export default function Hero({ content }: Props) {
               </p>
             </div>
           </div>
+
         </div>
 
         {/* Image */}
@@ -105,7 +106,7 @@ export default function Hero({ content }: Props) {
           {/* Gold inner edge */}
           <div className="pointer-events-none absolute inset-0 rounded-[inherit] ring-1 ring-inset ring-[var(--brand-gold-light)]/15" />
 
-          {/* Bottom glass card */}
+          {/* Bottom glass card 
           <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between gap-4 rounded-2xl border border-[var(--brand-gold-light)]/20 bg-[var(--brand-espresso)]/65 px-4 py-3 text-[var(--brand-ivory)] shadow-xl backdrop-blur-md sm:bottom-5 sm:left-5 sm:right-5 sm:px-5 sm:py-4">
             <div>
               <p className="text-[10px] font-semibold uppercase tracking-wider text-[var(--brand-gold)] sm:text-xs">
@@ -120,6 +121,38 @@ export default function Hero({ content }: Props) {
             <a
               href="#location"
               className="shrink-0 rounded-full border border-[var(--brand-gold)]/30 px-3 py-2 text-[11px] font-semibold text-[var(--brand-ivory)] transition-all duration-300 hover:border-[var(--brand-gold)]/60 hover:bg-[var(--brand-gold)]/10 sm:px-4 sm:text-xs"
+            >
+              {content.viewMap}
+            </a>
+          </div>
+            */}
+
+            {/* View map button */}
+          <div className="absolute bottom-4 right-4 sm:bottom-5 sm:right-5">
+            <a
+              href="#location"
+              className="
+                inline-flex
+                items-center
+                justify-center
+                rounded-full
+                border
+                border-[var(--brand-gold-light)]/25
+                bg-[var(--brand-espresso)]/70
+                px-4
+                py-2.5
+                text-xs
+                font-semibold
+                text-[var(--brand-ivory)]
+                shadow-lg
+                backdrop-blur-md
+                transition-all
+                duration-300
+                hover:border-[var(--brand-gold)]/60
+                hover:bg-[var(--brand-espresso)]/85
+                sm:px-5
+                sm:py-3
+              "
             >
               {content.viewMap}
             </a>

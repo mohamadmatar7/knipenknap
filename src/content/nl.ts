@@ -16,7 +16,7 @@ const nl: SiteContent = {
 
   hero: {
     eyebrow: "Barbershop in Gent",
-    title: "Jouw stijl, tot in de details.",
+    title: "Jouw stijl, tot in de details",
     subtitle:
       "Professionele herenkapsels en baardverzorging in een moderne en ontspannen sfeer in het hart van Gent.",
 
@@ -34,7 +34,7 @@ const nl: SiteContent = {
 
   services: {
     eyebrow: "Onze diensten",
-    title: "Alles voor jouw stijl.",
+    title: "Alles voor jouw stijl",
     description:
       "Van een frisse knipbeurt tot een verzorgde baard. Ontdek onze diensten en kies wat bij jou past.",
 
@@ -80,7 +80,7 @@ const nl: SiteContent = {
 
   about: {
     eyebrow: "Over ons",
-    title: "Meer dan alleen een knipbeurt.",
+    title: "Meer dan alleen een knipbeurt",
     text:
       "Bij ons draait het om vakmanschap, aandacht en een stijl die bij jou past. In een moderne en ontspannen omgeving nemen we de tijd voor een verzorgde afwerking, zodat je met een frisse look en een goed gevoel buitenstapt.",
 
@@ -95,12 +95,12 @@ const nl: SiteContent = {
 
   gallery: {
     eyebrow: "Onze sfeer",
-    title: "Een plek waar stijl en detail samenkomen.",
+    title: "Een plek waar stijl en detail samenkomen",
   },
 
   location: {
     eyebrow: "Locatie",
-    title: "Kom langs in Gent.",
+    title: "Kom langs in Gent",
     text:
       "Je vindt onze barbershop aan de Noordstraat 27 in Gent. Kom langs voor een frisse look en persoonlijke service.",
 

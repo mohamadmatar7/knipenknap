@@ -15,15 +15,32 @@ type Props = {
 export default function Navbar({ locale, content }: Props) {
   const [isOpen, setIsOpen] = useState(false);
 
+  const nameParts = siteConfig.name.split(/(\s+)/);
+
   return (
     <header className="sticky top-0 z-50 border-b border-[var(--nav-border)] bg-[var(--nav-bg)]/95 text-[var(--nav-text)] backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-6 lg:px-8">
         <Link
           href={`/${locale}`}
-          className="text-xl font-bold tracking-tight text-[var(--nav-text)] transition hover:text-[var(--nav-accent)]"
+          className="group text-xl font-bold tracking-tight"
           onClick={() => setIsOpen(false)}
         >
-          {siteConfig.name}
+          {nameParts.map((part, index) => {
+            const isAccent = part.trim().toLowerCase() === "en";
+
+            return (
+              <span
+                key={index}
+                className={
+                  isAccent
+                    ? "text-[var(--brand-gold-dark)]"
+                    : "text-[var(--nav-text)] transition group-hover:text-[var(--nav-text-secondary)]"
+                }
+              >
+                {part}
+              </span>
+            );
+          })}
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

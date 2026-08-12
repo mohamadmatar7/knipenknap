@@ -95,6 +95,8 @@ export default function Footer({ content }: Props) {
               </a>
             </div>
           </div>
+
+          
         </div>
 
         {/* Bottom */}

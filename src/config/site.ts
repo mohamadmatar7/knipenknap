@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Knip & Knap",
+  name: "Knip En Knap",
 
   domain: "https://yourdomain.be",
 

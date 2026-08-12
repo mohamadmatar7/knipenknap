@@ -27,7 +27,7 @@ export default function WhatsAppButton({ label }: Props) {
         focus-visible:ring-2
         focus-visible:ring-[#25D366]
         focus-visible:ring-offset-2
-        sm:bottom-6 sm:right-6 sm:h-16 sm:w-16
+        sm:bottom-10 sm:right-6 sm:h-16 sm:w-16
       "
     >
       <svg
