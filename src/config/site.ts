@@ -3,6 +3,11 @@ export const siteConfig = {
 
   domain: "https://yourdomain.be",
 
+  business: {
+    vatNumber: "BE 0740.767.719",
+    enterpriseNumber: "0740.767.719",
+  },
+
   address: {
     street: "Noordstraat 27",
     postalCode: "9000",
@@ -11,6 +16,11 @@ export const siteConfig = {
     countryCode: "BE",
 
     full: "Noordstraat 27, 9000 Gent",
+  },
+
+  contact: {
+    email: "info@knipenknap.be",
+    phone: "+32 465 56 63 07",
   },
 
   whatsapp: {

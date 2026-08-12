@@ -135,6 +135,41 @@ const en: SiteContent = {
     rights: "All rights reserved.",
     whatsapp: "Book via WhatsApp",
     developerCredit: "Designed & developed by",
+    privacy: "Privacy Policy",
+  },
+
+  privacy: {
+    title: "Privacy Policy",
+
+    intro:
+      "Knip En Knap takes the protection of your personal data and privacy seriously. This privacy policy explains which data may be processed through this website, why it may be processed, and what rights you have.",
+
+    controllerTitle: "1. Data Controller",
+
+    controllerText:
+      "Knip En Knap is responsible for the processing of personal data in connection with this website. Knip En Knap is located at Noordstraat 27, 9000 Ghent, Belgium. Enterprise number: 0740.767.719. VAT number: BE 0740.767.719. You can contact us at info@knipenknap.be or by phone at +32 465 56 63 07.",
+
+    dataTitle: "2. What Personal Data Do We Process?",
+
+    dataText:
+      "This website does not provide user accounts, online payments, or a direct contact form. When you contact us by email, phone, or WhatsApp, information such as your name, phone number, email address, and the content of your message may be processed in order to answer your request or arrange an appointment. When you visit the website, technical information such as your IP address, browser information, and device information may also be processed for security purposes and to ensure the proper operation of the website.",
+
+    thirdPartiesTitle: "3. Third-Party Services",
+
+    thirdPartiesText:
+      "The website is hosted using Cloudflare Pages. Cloudflare may process technical information necessary to provide the website securely and reliably. For contact and appointments, the website may redirect you to WhatsApp. When you use WhatsApp, the privacy terms of WhatsApp and Meta apply. The website also uses Google Maps to display the location of the barbershop. When Google Maps is loaded or used, Google may process information in accordance with its own privacy policy.",
+
+    rightsTitle: "4. Your Privacy Rights",
+
+    rightsText:
+      "Under the General Data Protection Regulation (GDPR), and where the applicable legal requirements are met, you may have the right to access, correct or delete your personal data, restrict its processing, or object to certain processing activities. You can exercise these rights by contacting us at info@knipenknap.be. If you believe that your personal data is not being processed correctly, you may also lodge a complaint with the Belgian Data Protection Authority.",
+
+    contactTitle: "5. Cookies and Contact",
+
+    contactText:
+      "Knip En Knap does not itself use advertising or marketing cookies and currently does not use analytics tracking tools such as Google Analytics or Meta Pixel. External services such as Google Maps may use their own cookies or similar technologies when they are used. If you have any questions about this privacy policy or the processing of your personal data, you can contact us at info@knipenknap.be.",
+
+    lastUpdated: "Last updated: August 2026",
   },
 };
 

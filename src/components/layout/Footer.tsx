@@ -1,13 +1,17 @@
+import Link from "next/link";
+
 import { siteConfig } from "@/config/site";
+import type { Locale } from "@/config/locales";
 import type { FooterContent } from "@/types/content";
 
 import Container from "@/components/ui/Container";
 
 type Props = {
   content: FooterContent;
+  locale: Locale;
 };
 
-export default function Footer({ content }: Props) {
+export default function Footer({ content, locale }: Props) {
   const year = new Date().getFullYear();
 
   return (
@@ -50,25 +54,32 @@ export default function Footer({ content }: Props) {
 
             <nav className="mt-5 flex flex-col gap-3 text-sm">
               <a
-                href="#services"
+                href={`/${locale}#services`}
                 className="w-fit text-[var(--brand-text-warm)] transition hover:text-[var(--brand-ivory)]"
               >
                 {content.services}
               </a>
 
               <a
-                href="#about"
+                href={`/${locale}#about`}
                 className="w-fit text-[var(--brand-text-warm)] transition hover:text-[var(--brand-ivory)]"
               >
                 {content.about}
               </a>
 
               <a
-                href="#location"
+                href={`/${locale}#location`}
                 className="w-fit text-[var(--brand-text-warm)] transition hover:text-[var(--brand-ivory)]"
               >
                 {content.location}
               </a>
+
+              <Link
+                href={`/${locale}/privacy`}
+                className="w-fit text-[var(--brand-text-warm)] transition hover:text-[var(--brand-ivory)]"
+              >
+                {content.privacy}
+              </Link>
             </nav>
           </div>
 
@@ -86,6 +97,24 @@ export default function Footer({ content }: Props) {
               </p>
 
               <a
+                href={`mailto:${siteConfig.contact.email}`}
+                className="block w-fit transition hover:text-[var(--brand-ivory)]"
+              >
+                {siteConfig.contact.email}
+              </a>
+
+              <a
+                href={`tel:${siteConfig.contact.phone.replace(/\s/g, "")}`}
+                className="block w-fit transition hover:text-[var(--brand-ivory)]"
+              >
+                {siteConfig.contact.phone}
+              </a>
+
+              <p className="text-[var(--brand-text-soft)]">
+                BTW {siteConfig.business.vatNumber}
+              </p>
+
+              <a
                 href={siteConfig.maps.url}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -95,8 +124,6 @@ export default function Footer({ content }: Props) {
               </a>
             </div>
           </div>
-
-          
         </div>
 
         {/* Bottom */}

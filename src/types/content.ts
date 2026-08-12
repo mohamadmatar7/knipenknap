@@ -79,11 +79,34 @@ export type FooterContent = {
   rights: string;
   whatsapp: string;
   developerCredit: string;
+  privacy: string;
 };
 
 export type SeoContent = {
   title: string;
   description: string;
+};
+
+export type PrivacyContent = {
+  title: string;
+  intro: string;
+
+  controllerTitle: string;
+  controllerText: string;
+
+  dataTitle: string;
+  dataText: string;
+
+  thirdPartiesTitle: string;
+  thirdPartiesText: string;
+
+  rightsTitle: string;
+  rightsText: string;
+
+  contactTitle: string;
+  contactText: string;
+
+  lastUpdated: string;
 };
 
 export type SiteContent = {
@@ -95,4 +118,5 @@ export type SiteContent = {
   location: LocationContent;
   footer: FooterContent;
   seo: SeoContent;
+  privacy: PrivacyContent;
 };

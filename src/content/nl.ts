@@ -135,6 +135,41 @@ const nl: SiteContent = {
     rights: "Alle rechten voorbehouden.",
     whatsapp: "Afspraak maken via WhatsApp",
     developerCredit: "Ontworpen en ontwikkeld door",
+    privacy: "Privacybeleid",
+  },
+
+  privacy: {
+    title: "Privacybeleid",
+
+    intro:
+      "Knip En Knap hecht veel belang aan de bescherming van uw persoonsgegevens en uw privacy. In dit privacybeleid leggen we uit welke gegevens via deze website kunnen worden verwerkt, waarom dit gebeurt en welke rechten u heeft.",
+
+    controllerTitle: "1. Verantwoordelijke voor de verwerking",
+
+    controllerText:
+      "Knip En Knap is verantwoordelijk voor de verwerking van persoonsgegevens in verband met deze website. Knip En Knap is gevestigd aan Noordstraat 27, 9000 Gent, België. Ondernemingsnummer: 0740.767.719. BTW-nummer: BE 0740.767.719. U kunt ons bereiken via info@knipenknap.be of telefonisch via +32 465 56 63 07.",
+
+    dataTitle: "2. Welke persoonsgegevens verwerken we?",
+
+    dataText:
+      "Deze website bevat geen gebruikersaccounts, online betalingen of rechtstreeks contactformulier. Wanneer u zelf contact met ons opneemt via e-mail, telefoon of WhatsApp, kunnen gegevens zoals uw naam, telefoonnummer, e-mailadres en de inhoud van uw bericht worden verwerkt om uw vraag te beantwoorden of een afspraak te regelen. Daarnaast kunnen bij een bezoek aan de website technische gegevens, zoals uw IP-adres, browsergegevens en apparaatinformatie, technisch worden verwerkt voor beveiliging en de correcte werking van de website.",
+
+    thirdPartiesTitle: "3. Externe diensten",
+
+    thirdPartiesText:
+      "De website wordt gehost via Cloudflare Pages. Cloudflare kan technische gegevens verwerken die nodig zijn om de website veilig en betrouwbaar aan te bieden. Voor contact en afspraken kan de website u doorsturen naar WhatsApp. Wanneer u WhatsApp gebruikt, gelden de privacyvoorwaarden van WhatsApp en Meta. De website maakt daarnaast gebruik van Google Maps om de locatie van de zaak weer te geven. Bij het laden of gebruiken van Google Maps kunnen gegevens door Google worden verwerkt volgens het privacybeleid van Google.",
+
+    rightsTitle: "4. Uw privacyrechten",
+
+    rightsText:
+      "Volgens de Algemene Verordening Gegevensbescherming (AVG/GDPR) heeft u, wanneer de wettelijke voorwaarden daarvoor vervuld zijn, het recht om uw persoonsgegevens in te zien, te laten verbeteren of verwijderen, de verwerking ervan te beperken of bezwaar te maken tegen bepaalde verwerkingen. U kunt hiervoor contact met ons opnemen via info@knipenknap.be. Indien u van mening bent dat uw persoonsgegevens niet correct worden verwerkt, kunt u ook een klacht indienen bij de Belgische Gegevensbeschermingsautoriteit.",
+
+    contactTitle: "5. Cookies en contact",
+
+    contactText:
+      "Knip En Knap gebruikt zelf geen advertentie- of marketingcookies en gebruikt momenteel geen analytische trackingtools zoals Google Analytics of Meta Pixel. Externe diensten zoals Google Maps kunnen bij gebruik ervan eigen cookies of vergelijkbare technologieën gebruiken. Voor vragen over dit privacybeleid of over de verwerking van uw persoonsgegevens kunt u contact opnemen via info@knipenknap.be.",
+
+    lastUpdated: "Laatst bijgewerkt: augustus 2026",
   },
 };
 

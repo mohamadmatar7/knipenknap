@@ -68,7 +68,10 @@ export default async function HomePage({ params }: Props) {
         <Location content={t.location} />
       </main>
 
-      <Footer content={t.footer} />
+      <Footer
+        content={t.footer}
+        locale={locale}
+      />
 
       <WhatsAppButton label={t.footer.whatsapp} />
       <ScrollToTopButton />

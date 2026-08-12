@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 import { siteConfig } from "@/config/site";
@@ -14,8 +15,20 @@ type Props = {
 
 export default function Navbar({ locale, content }: Props) {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   const nameParts = siteConfig.name.split(/(\s+)/);
+
+  const getLocalePath = (targetLocale: Locale) => {
+    const segments = pathname.split("/");
+
+    segments[1] = targetLocale;
+
+    return segments.join("/") || `/${targetLocale}`;
+  };
+
+  const nlPath = getLocalePath("nl");
+  const enPath = getLocalePath("en");
 
   return (
     <header className="sticky top-0 z-50 border-b border-[var(--nav-border)] bg-[var(--nav-bg)]/95 text-[var(--nav-text)] backdrop-blur-md">
@@ -45,21 +58,21 @@ export default function Navbar({ locale, content }: Props) {
 
         <nav className="hidden items-center gap-8 md:flex">
           <a
-            href="#services"
+            href={`/${locale}#services`}
             className="text-sm font-medium text-[var(--nav-text-secondary)] transition hover:text-[var(--nav-accent)]"
           >
             {content.services}
           </a>
 
           <a
-            href="#about"
+            href={`/${locale}#about`}
             className="text-sm font-medium text-[var(--nav-text-secondary)] transition hover:text-[var(--nav-accent)]"
           >
             {content.about}
           </a>
 
           <a
-            href="#location"
+            href={`/${locale}#location`}
             className="text-sm font-medium text-[var(--nav-text-secondary)] transition hover:text-[var(--nav-accent)]"
           >
             {content.location}
@@ -69,7 +82,7 @@ export default function Navbar({ locale, content }: Props) {
         <div className="hidden items-center gap-5 md:flex">
           <div className="flex items-center gap-2 text-sm font-medium">
             <Link
-              href="/nl"
+              href={nlPath}
               className={
                 locale === "nl"
                   ? "text-[var(--nav-accent)]"
@@ -82,7 +95,7 @@ export default function Navbar({ locale, content }: Props) {
             <span className="text-[var(--nav-divider)]">/</span>
 
             <Link
-              href="/en"
+              href={enPath}
               className={
                 locale === "en"
                   ? "text-[var(--nav-accent)]"
@@ -136,7 +149,7 @@ export default function Navbar({ locale, content }: Props) {
         <div className="border-t border-[var(--nav-border)] bg-[var(--nav-bg)] px-5 py-6 sm:px-6 md:hidden">
           <nav className="flex flex-col gap-5">
             <a
-              href="#services"
+              href={`/${locale}#services`}
               onClick={() => setIsOpen(false)}
               className="text-lg font-medium text-[var(--nav-text-secondary)] transition hover:text-[var(--nav-accent)]"
             >
@@ -144,7 +157,7 @@ export default function Navbar({ locale, content }: Props) {
             </a>
 
             <a
-              href="#about"
+              href={`/${locale}#about`}
               onClick={() => setIsOpen(false)}
               className="text-lg font-medium text-[var(--nav-text-secondary)] transition hover:text-[var(--nav-accent)]"
             >
@@ -152,7 +165,7 @@ export default function Navbar({ locale, content }: Props) {
             </a>
 
             <a
-              href="#location"
+              href={`/${locale}#location`}
               onClick={() => setIsOpen(false)}
               className="text-lg font-medium text-[var(--nav-text-secondary)] transition hover:text-[var(--nav-accent)]"
             >
@@ -163,7 +176,7 @@ export default function Navbar({ locale, content }: Props) {
           <div className="mt-7 flex items-center justify-between gap-4 border-t border-[var(--nav-border)] pt-6">
             <div className="flex items-center gap-3 text-sm font-semibold">
               <Link
-                href="/nl"
+                href={nlPath}
                 onClick={() => setIsOpen(false)}
                 className={
                   locale === "nl"
@@ -177,7 +190,7 @@ export default function Navbar({ locale, content }: Props) {
               <span className="text-[var(--nav-divider)]">/</span>
 
               <Link
-                href="/en"
+                href={enPath}
                 onClick={() => setIsOpen(false)}
                 className={
                   locale === "en"
