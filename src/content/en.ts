@@ -2,9 +2,9 @@ import type { SiteContent } from "@/types/content";
 
 const en: SiteContent = {
   seo: {
-    title: "Barbershop Ghent | Men's Haircuts & Beard Grooming",
+    title: "Knip En Knap | Barbershop & Men's Haircuts in Ghent",
     description:
-      "Professional barbershop in Ghent for men's haircuts, beard grooming and clipper cuts. Visit us at Noordstraat 27, 9000 Ghent.",
+      "Knip En Knap is a professional barbershop in Ghent for men's haircuts, beard grooming and clipper cuts. Visit us at Noordstraat 27, 9000 Ghent.",
   },
 
   nav: {
@@ -170,6 +170,15 @@ const en: SiteContent = {
       "Knip En Knap does not itself use advertising or marketing cookies and currently does not use analytics tracking tools such as Google Analytics or Meta Pixel. External services such as Google Maps may use their own cookies or similar technologies when they are used. If you have any questions about this privacy policy or the processing of your personal data, you can contact us at info@knipenknap.be.",
 
     lastUpdated: "Last updated: August 2026",
+  },
+
+  notFound: {
+    eyebrow: "Page not found",
+    title: "This page doesn't exist",
+    text:
+      "The page you're looking for may have been moved, removed or no longer exists. Return to the homepage or book an appointment.",
+    home: "Back to home",
+    whatsapp: "Book now",
   },
 };
 

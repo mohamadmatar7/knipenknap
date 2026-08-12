@@ -2,9 +2,9 @@ import type { SiteContent } from "@/types/content";
 
 const nl: SiteContent = {
   seo: {
-    title: "Barbershop Gent | Herenkapper & Baardverzorging",
+    title: "Knip En Knap | Barbershop & Herenkapper in Gent",
     description:
-      "Professionele barbershop in Gent voor herenkapsels, baardverzorging en knippen met de tondeuse. Bezoek ons in Noordstraat 27, 9000 Gent.",
+      "Knip En Knap is een professionele barbershop in Gent voor herenkapsels, baardverzorging en knippen met de tondeuse. Bezoek ons in Noordstraat 27, 9000 Gent.",
   },
 
   nav: {
@@ -170,6 +170,15 @@ const nl: SiteContent = {
       "Knip En Knap gebruikt zelf geen advertentie- of marketingcookies en gebruikt momenteel geen analytische trackingtools zoals Google Analytics of Meta Pixel. Externe diensten zoals Google Maps kunnen bij gebruik ervan eigen cookies of vergelijkbare technologieën gebruiken. Voor vragen over dit privacybeleid of over de verwerking van uw persoonsgegevens kunt u contact opnemen via info@knipenknap.be.",
 
     lastUpdated: "Laatst bijgewerkt: augustus 2026",
+  },
+
+  notFound: {
+    eyebrow: "Pagina niet gevonden",
+    title: "Deze pagina bestaat niet",
+    text:
+      "De pagina die je zoekt is misschien verplaatst, verwijderd of bestaat niet meer. Ga terug naar de homepage of maak meteen een afspraak.",
+    home: "Terug naar home",
+    whatsapp: "Afspraak maken",
   },
 };
 

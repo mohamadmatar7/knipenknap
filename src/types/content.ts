@@ -109,6 +109,15 @@ export type PrivacyContent = {
   lastUpdated: string;
 };
 
+
+export type NotFoundContent = {
+  eyebrow: string;
+  title: string;
+  text: string;
+  home: string;
+  whatsapp: string;
+};
+
 export type SiteContent = {
   nav: NavContent;
   hero: HeroContent;
@@ -119,4 +128,5 @@ export type SiteContent = {
   footer: FooterContent;
   seo: SeoContent;
   privacy: PrivacyContent;
+  notFound: NotFoundContent;
 };
