@@ -53,10 +53,12 @@ export default function ScrollToTopButton() {
         focus-visible:ring-[var(--brand-gold)]
         focus-visible:ring-offset-2
 
-        sm:bottom-[7rem]
+        sm:bottom-[7.5rem]
         sm:right-6
         sm:h-16
         sm:w-16
+
+        lg:hidden
 
         ${
           isVisible

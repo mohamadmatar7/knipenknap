@@ -11,6 +11,7 @@ import Gallery from "@/components/sections/Gallery";
 import Location from "@/components/sections/Location";
 
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
+import ScrollToTopButton from "@/components/ui/ScrollToTopButton";
 import LocalBusinessJsonLd from "@/components/seo/LocalBusinessJsonLd";
 
 import { isLocale, locales } from "@/config/locales";
@@ -70,6 +71,7 @@ export default async function HomePage({ params }: Props) {
       <Footer content={t.footer} />
 
       <WhatsAppButton label={t.footer.whatsapp} />
+      <ScrollToTopButton />
     </>
   );
 }
