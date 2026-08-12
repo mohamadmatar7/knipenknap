@@ -41,7 +41,10 @@ export function buildMetadata(locale: Locale): Metadata {
           url: "/images/og-barbershop.jpeg",
           width: 1200,
           height: 630,
-          alt: `${siteConfig.name} - Barbershop Gent`,
+          alt:
+            locale === "nl"
+              ? `${siteConfig.name} - Barbershop in Gent`
+              : `${siteConfig.name} - Barbershop in Ghent`,
         },
       ],
     },

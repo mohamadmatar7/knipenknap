@@ -17,7 +17,11 @@ export default function LocalBusinessJsonLd({
 
     url: `${siteConfig.domain}/${locale}`,
 
-    image: `${siteConfig.domain}/images/og-barbershop.jpg`,
+    image: `${siteConfig.domain}/images/og-barbershop.jpeg`,
+
+    telephone: siteConfig.contact.phone,
+
+    email: siteConfig.contact.email,
 
     address: {
       "@type": "PostalAddress",
