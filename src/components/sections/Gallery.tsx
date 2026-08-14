@@ -11,17 +11,17 @@ type Props = {
 
 const images = [
   {
-    src: "/images/1.jpeg",
+    src: "/images/11.png",
     alt: "Barbershop interior",
     size: "large",
   },
   {
-    src: "/images/2.jpeg",
+    src: "/images/22.png",
     alt: "Professional haircut",
     size: "small",
   },
   {
-    src: "/images/3.jpeg",
+    src: "/images/33.png",
     alt: "Barber tools",
     size: "small",
   },
