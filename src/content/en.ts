@@ -4,7 +4,7 @@ const en: SiteContent = {
   seo: {
     title: "Knip En Knap | Barbershop & Men's Haircuts in Ghent",
     description:
-      "Knip En Knap is a professional barbershop in Ghent for men's haircuts, beard grooming and clipper cuts. Visit us at Noordstraat 27, 9000 Ghent.",
+      "Knip En Knap is a professional barbershop in Ghent offering stylish men's haircuts, beard grooming and traditional straight razor shaving. Visit us at Noordstraat 27, 9000 Ghent.",
   },
 
   nav: {

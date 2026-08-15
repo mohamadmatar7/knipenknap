@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Knip En Knap",
 
-  domain: "https://yourdomain.be",
+  domain: "https://knipenknap.be",
 
   business: {
     vatNumber: "BE 0740.767.719",

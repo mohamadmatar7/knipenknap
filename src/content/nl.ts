@@ -4,7 +4,7 @@ const nl: SiteContent = {
   seo: {
     title: "Knip En Knap | Barbershop & Herenkapper in Gent",
     description:
-      "Knip En Knap is een professionele barbershop in Gent voor herenkapsels, baardverzorging en knippen met de tondeuse. Bezoek ons in Noordstraat 27, 9000 Gent.",
+      "Knip En Knap is een professionele barbershop in Gent voor stijlvolle herenkapsels, baardverzorging en traditioneel scheren met het scheermes. Bezoek ons in de Noordstraat 27, 9000 Gent.",
   },
 
   nav: {
