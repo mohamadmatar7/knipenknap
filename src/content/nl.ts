@@ -27,7 +27,7 @@ const nl: SiteContent = {
     location: "Noordstraat 27, 9000 Gent",
 
     hoursLabel: "Open",
-    hours: "Vanaf 10:30",
+    hours: "Vanaf 10:00",
 
     viewMap: "Bekijk kaart",
 
@@ -72,6 +72,7 @@ const nl: SiteContent = {
         description:
           "Een complete verzorging van haar en baard voor een perfect afgewerkte look.",
         price: "€28",
+        promo: "Promo",
       },
       {
         title: "Haar & baard met scheermes",
@@ -114,13 +115,13 @@ const nl: SiteContent = {
 
     hoursLabel: "Openingsuren",
     hours: [
-      { day: "Maandag", time: "10:30 - 18:30" },
+      { day: "Maandag", time: "10:00 - 18:00" },
       { day: "Dinsdag", time: "Gesloten" },
-      { day: "Woensdag", time: "10:30 - 18:30" },
-      { day: "Donderdag", time: "10:30 - 18:30" },
-      { day: "Vrijdag", time: "10:30 - 18:30" },
-      { day: "Zaterdag", time: "10:30 - 18:30" },
-      { day: "Zondag", time: "10:30 - 18:30" },
+      { day: "Woensdag", time: "10:00 - 18:00" },
+      { day: "Donderdag", time: "10:00 - 18:00" },
+      { day: "Vrijdag", time: "10:00 - 18:00" },
+      { day: "Zaterdag", time: "10:00 - 18:00" },
+      { day: "Zondag", time: "11:00 - 17:00" },
     ],
 
     directions: "Route bekijken",

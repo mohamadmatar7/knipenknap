@@ -27,7 +27,7 @@ const en: SiteContent = {
     location: "Noordstraat 27, 9000 Ghent",
 
     hoursLabel: "Open",
-    hours: "From 10:30",
+    hours: "From 10:00",
 
     viewMap: "View map",
 
@@ -72,6 +72,7 @@ const en: SiteContent = {
         description:
           "Complete hair and beard grooming for a clean, finished look.",
         price: "€28",
+        promo: "Promo",
       },
       {
         title: "Hair & beard with razor",
@@ -114,13 +115,13 @@ const en: SiteContent = {
 
     hoursLabel: "Opening hours",
     hours: [
-      { day: "Monday", time: "10:30 - 18:30" },
+      { day: "Monday", time: "10:00 - 18:00" },
       { day: "Tuesday", time: "Closed" },
-      { day: "Wednesday", time: "10:30 - 18:30" },
-      { day: "Thursday", time: "10:30 - 18:30" },
-      { day: "Friday", time: "10:30 - 18:30" },
-      { day: "Saturday", time: "10:30 - 18:30" },
-      { day: "Sunday", time: "10:30 - 18:30" },
+      { day: "Wednesday", time: "10:00 - 18:00" },
+      { day: "Thursday", time: "10:00 - 18:00" },
+      { day: "Friday", time: "10:00 - 18:00" },
+      { day: "Saturday", time: "10:00 - 18:00" },
+      { day: "Sunday", time: "11:00 - 17:00" },
     ],
 
     directions: "Get directions",

@@ -24,8 +24,8 @@ export const siteConfig = {
   },
 
   whatsapp: {
-    number: "32470000000",
-    url: "https://wa.me/32470000000",
+    number: "32465566307",
+    url: "https://wa.me/32465566307",
   },
 
   maps: {
